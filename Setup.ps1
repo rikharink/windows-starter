@@ -15,5 +15,5 @@ else {
     Write-Host "Executing $choice"
     $recipe = (Get-Item -Path ".\scripts\recipes\$choice").FullName
     Write-Host $recipe
-    #Install-BoxstarterPackage $recipe
+    Install-BoxstarterPackage $recipe
 }
