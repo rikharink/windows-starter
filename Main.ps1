@@ -4,7 +4,6 @@ Disable-MicrosoftUpdate
 
 Disable-BingSearch
 Disable-GameBarTips
-Set-TaskbarOptions -Size Small -Lock -Dock Bottom -Combine Always -AlwaysShowIconsOff
 
 # Get the base URI path from the ScriptToCall value
 $bstrappackage = "-bootstrapPackage"
