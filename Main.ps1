@@ -22,6 +22,7 @@ function executeScript {
     Invoke-Expression ((New-Object net.webclient).DownloadString("$helperUri/$script"))
 }
 
+Write-Host "Executing scripts"
 #--- Setting up Windows ---
 executeScript "FileExplorerSettings.ps1";
 executeScript "SystemConfiguration.ps1";
